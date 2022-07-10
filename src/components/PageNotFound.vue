@@ -1,5 +1,5 @@
 <template>
-  <div id="pageNotFound">
+  <div>
     <h1>This is the page we should hit when we get a route we haven't defined</h1>
   </div>
 </template>

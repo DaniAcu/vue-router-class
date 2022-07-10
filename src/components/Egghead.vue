@@ -1,5 +1,5 @@
 <template>
-  <div id="egghead">
+  <div>
     <h1>This is where the Egghead Videos Go</h1>
   </div>
 </template>
@@ -14,5 +14,6 @@ export default {
 <style scoped>
 div {
   background-color: blue;
+  color: #fff;
 }
 </style>

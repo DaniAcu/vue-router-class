@@ -1,5 +1,5 @@
 <template>
-  <div id="guestpost">
+  <div>
     <h1>This is a sub route for guest posts</h1>
   </div>
 </template>

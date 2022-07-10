@@ -1,13 +1,15 @@
 <template>
-  <div id="blog">
-    <h1>This is blog number id</h1>
+  <div>
+    <h1>This is blog number id {{ id }}</h1>
+    <router-view></router-view>
   </div>
 </template>
 
 
 <script>
 export default {
-  name: "blog"
+  name: "blog",
+  props: ["id"]
 };
 </script>
 
